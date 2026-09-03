@@ -1,28 +1,34 @@
 # Password Strength Checker
 
-This is a small Python project I made while practicing programming.  
-The idea is to check how strong or weak a password is by looking at a few simple rules.
+Password Strength Checker is a small Python project that checks the strength of a password.
 
-## What it does
-- Checks if the password is at least 8 characters long
-- Looks for digits, lowercase, uppercase, and symbols
-- Gives back a result: Weak, Medium, or Strong
+I built it while learning cybersecurity and Python to better understand the basic characteristics of stronger and weaker passwords.
 
-## How to run
-Clone the repo and run the script:
+## What It Does
+The program takes a password from the user and evaluates it using the checks included in the program.
 
+It then gives the user a simple result based on those checks.
+
+## Why I Built It
+Passwords were one of the first security topics I explored while learning cybersecurity.
+
+This project gave me a simple way to connect Python programming with a practical security concept.
+
+## Technologies
+- Python
+
+## How to Run
 ```bash
-python password_checker.py
+python password_strength_checker.py
 ```
 
-Then type a password when asked and it will tell you if it's weak, medium or strong.
+If your current file has a different name, use that filename instead.
 
-## Example
-```
-Password Strength Checker
-Enter your password: Hello123!
-Your password is: Strong
-```
+## What I Learned
+- Python conditions
+- User input handling
+- Basic password-security concepts
+- Writing simple program logic
 
-## Note
-This is not a professional security tool. It's only for learning and practice.
+## Status
+This is a learning project intended for practicing Python and basic cybersecurity concepts.

@@ -1,0 +1,5 @@
+Description:
+A simple Python tool for checking password strength and practicing basic password-security concepts.
+
+Suggested topics:
+python, cybersecurity, password-security, learning-project
